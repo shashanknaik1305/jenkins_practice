@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    triggers {
+        githubPush()   // 🔔 Triggers build on GitHub push
+    }
     stages {
         stage('Checkout') {
             steps {
