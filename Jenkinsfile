@@ -6,7 +6,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-ssh',
-                    url: 'git@github.com:<your-username>/hello-jenkins.git'
+                    url: 'git@github.com:shashanknaik1305/jenkins_practice.git'
             }
         }
 
